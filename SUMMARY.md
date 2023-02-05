@@ -15,3 +15,5 @@
     * [FAPI.contains()](metodos/array/fapi.contains.md)
     * [FAPI.get()](metodos/array/fapi.get.md)
     * [FAPI.remove()](metodos/array/fapi.remove.md)
+  * [Task](metodos/task/README.md)
+    * [FAPI.runAsyncTask()](metodos/task/fapi.runasynctask.md)

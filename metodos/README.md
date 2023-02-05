@@ -1,5 +1,5 @@
 ---
-description: Tipos de métodos de FAPI
+description: Métodos de FAPI
 ---
 
 # Métodos
