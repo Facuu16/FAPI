@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: FAPI-MANAGER-STRING.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,42 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: FAPI-MANAGER-STRING.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>var ChatColor = Java.type("org.bukkit.ChatColor");
 
-
-    <h3> </h3>
-
-
-
-
-
-
-
-
-
-
+function onInit() {
+    var managerId = "FAPI-MANAGER-STRING";
     
+    API.setTempData(managerId, getManager());
+}
 
+function getManager() {
+    return {
+        setColor: setColor
+    };
+}
 
-
-
-
+/**
+ * @function setColor
+ * @description Translates alternate color codes in the given string to their corresponding ChatColor codes.
+ * 
+ * @param {String} string - The input string to translate.
+ * 
+ * @returns {String} - The translated string with ChatColor codes.
+ */
+function setColor(string) {
+    return ChatColor.translateAlternateColorCodes("&amp;", string);
+}</code></pre>
+        </article>
+    </section>
 
 
 
