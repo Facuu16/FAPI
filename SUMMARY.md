@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introducción](README.md)
+* [Documentación de JSDocs](documentacion-de-jsdocs.md)
 * [Módulos de Registro](modulos-de-registro/README.md)
   * [Comandos](modulos-de-registro/comandos/README.md)
     * [Evento](modulos-de-registro/comandos/evento.md)
