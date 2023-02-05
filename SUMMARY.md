@@ -1,3 +1,16 @@
 # Table of contents
 
 * [Introducción](README.md)
+* [Módulos de Registro](modulos-de-registro/README.md)
+  * [Comandos](modulos-de-registro/comandos/README.md)
+    * [Evento](modulos-de-registro/comandos/evento.md)
+* [Métodos](metodos/README.md)
+  * [Entity](metodos/entity/README.md)
+    * [Player](metodos/entity/player/README.md)
+      * [FAPI.hasArmor()](metodos/entity/player/fapi.hasarmor.md)
+  * [String](metodos/string/README.md)
+    * [FAPI.setColor()](metodos/string/fapi.setcolor.md)
+  * [Array](metodos/array/README.md)
+    * [FAPI.contains()](metodos/array/fapi.contains.md)
+    * [FAPI.get()](metodos/array/fapi.get.md)
+    * [FAPI.remove()](metodos/array/fapi.remove.md)
