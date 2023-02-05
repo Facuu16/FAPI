@@ -6,7 +6,7 @@ description: Determina si un jugador tiene la armadura especificada.
 
 **Parámetros**:\
 Jugador, ID del Casco, ID de la Pechera, ID de los Pantalones, ID de las Botas.\
-null en caso de que se quiera hacer una excepción de la parte actual.
+NULL en caso de que se quiera hacer una excepción de la parte actual.
 
 Devuelve un valor booleano que indica si el jugador tiene la armadura especificada.
 
