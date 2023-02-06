@@ -11,7 +11,7 @@ description: Contiene métodos para acceder a las propiedades del evento.
 * **getHandlers()**: Devuelve la lista de manejadores registrados.
 
 ```javascript
-FAPI.registerCommand("prueba", null, function (event) {  
+FAPI.registerCommand("prueba", "comando.prueba", null, function (event) {  
   var player = event.getPlayer();  
 
   API.message(player, "El permiso de este comando es: " + event.getPermission()); 
