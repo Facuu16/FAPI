@@ -12,10 +12,10 @@ description: Contiene métodos para acceder a las propiedades del evento.
 
 ```javascript
 FAPI.registerCommand("prueba", "comando.prueba", null, function (event) {  
-  var player = event.getPlayer();  
+  var sender = event.getSender(); 
 
-  API.message(player, "El permiso de este comando es: " + event.getPermission()); 
-  API.message(player, "El comando ejecutado es: " + event.getCommand());
-  API.message(player, "Los argumentos son: " + event.getArguments().join(','));
+  API.message(sender, "El permiso de este comando es: " + event.getPermission()); 
+  API.message(sender, "El comando ejecutado es: " + event.getCommand());
+  API.message(sender, "Los argumentos son: " + event.getArguments().join(','));
 });
 ```

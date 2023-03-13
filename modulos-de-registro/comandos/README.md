@@ -13,25 +13,25 @@ La función que se ejecutará cuando se invoque el comando.
 ```javascript
 // Ejemplo de comando con permiso, y mensaje personalizado en caso de no tener el permiso
 FAPI.registerCommand("saludar", "comando.saludar", "&a¡No puedo saludarte!", function (event) {
-  var player = event.getPlayer();
+  var sender = event.getSender();
 
-  API.message(player, "¡Hola!"); 
+  API.message(sender, "¡Hola!"); 
 });
 
 
 // Ejemplo de comando con mensaje por defecto en caso de no tener el permiso
 FAPI.registerCommand("saludar", "comando.saludar", null, function (event) {
-  var player = event.getPlayer();
+  var sender = event.getSender();
 
-  API.message(player, "¡Hola!"); 
+  API.message(sender, "¡Hola!"); 
 });
 
 
 // Ejemplo de comando sin permiso
 FAPI.registerCommand("saludar", null, null, function (event) {
-  var player = event.getPlayer();
+  var sender = event.getSender();
   
-  API.message(player, "¡Hola!"); 
+  API.message(sender, "¡Hola!"); 
 }); 
 ```
 
